@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Syne';
+    src: url(./resources/font/Syne-VariableFont_wght.ttf) format('truetype');
+}
+
+body {
+    margin: 0;
+    font-family: 'Syne';
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+span {
+    font-weight: bold;
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background-image: none;
+    background-size: cover;
+    background-position: right;
+    height: 750px;
+    transition: background-image 0.7s ease-in-out;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    justify-content: space-around;
+    height: 70px;
+}
+nav .left , nav .right {
+    flex-grow: 1;
+}
+
+nav .right {
+    justify-content: space-around;
+}
+
+nav .left div {
+    margin: 0 2%;
+}
+
+nav .left div i {
+    margin-right: 2%;
+    cursor: pointer;
+}
+
+.banner-content {
+    margin: 0 auto 0 10%;
+}
+
+.banner-content h1 , .banner-content .button {
+    display: inline-block;
+}
+
+.banner-content .button {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.banner-content .social {
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+main {
+    background-color: black;
+    height: 600px;
+}
+
+
+

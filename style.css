@@ -95,5 +95,23 @@ main {
     height: 600px;
 }
 
+@media only screen and (max-width: 480px) {
+    header {
+        height: 400px;
+    }
+
+    header #nav {
+       display: none;
+    }
+    
+    header .social {
+        margin-top: 30px;
+    }
+
+    .banner-content {
+        margin: 0 10% ;
+    }
+}
+
 
 
